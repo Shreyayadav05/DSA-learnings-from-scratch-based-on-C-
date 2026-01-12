@@ -46,3 +46,31 @@ It can span multiple lines.
 using namespace std;: This directive allows you to use standard library functions (like cout and cin) without prefixing them with std::.
 
 #include <bits/stdc++.h>: This is a convenience header that includes almost all standard C++ libraries. It’s commonly used in competitive programming to save time.
+
+## Data Types in C++
+C++ supports various data types to store different kinds of data. Here are some commonly used ones:
+1) int
+2) long
+3) long long
+4) float
+5) double
+6) string
+7) char
+8) bool
+
+## Operators in C++
+Operators are symbols that perform operations on variables and values. 
+
+C++ supports various types of operators, including logical, arithmetic, relational, and assignment operators.
+
+### Logical Operators
+Logical operators are used to combine multiple conditions or to negate a condition. They return a boolean value (true or false).
+
+#### AND (&&): 
+Returns true if both conditions are true.
+
+#### OR (||): 
+Returns true if at least one condition is true.
+
+#### NOT (!): 
+Reverses the logical state of the condition (true becomes false, and vice versa).
