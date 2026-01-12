@@ -8,7 +8,7 @@ int main() {
 
 
 
-\* cout: This is used to print output to the console.
+/* cout: This is used to print output to the console.
 
 <<: The insertion operator is used to send data to the output stream.
 
