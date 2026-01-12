@@ -74,3 +74,136 @@ Returns true if at least one condition is true.
 
 #### NOT (!): 
 Reverses the logical state of the condition (true becomes false, and vice versa).
+## Arithmetic Operators
+Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, division, and modulus.
+
+#### Addition (+): 
+Adds two operands.
+#### Subtraction (-):
+Subtracts the second operand from the first.
+#### Multiplication (*): 
+Multiplies two operands.
+#### Division (/): 
+Divides the first operand by the second.
+#### Modulus (%): 
+Returns the remainder of division.
+## Relational Operators
+Relational operators are used to compare two values or expressions. They return a boolean value (true or false).
+
+#### Greater than (>): 
+Returns true if the left operand is greater than the right.
+#### Less than (<): 
+Returns true if the left operand is less than the right.
+#### Equal to (==):
+Returns true if both operands are equal.
+#### Not equal to (!=): 
+Returns true if the operands are not equal.
+#### Greater than or equal (>=): 
+Returns true if the left operand is greater than or equal to the right.
+#### Less than or equal (<=): 
+Returns true if the left operand is less than or equal to the right.
+##Assignment Operators
+Assignment operators are used to assign values to variables. They can also perform operations while assigning values.
+
+#### Assignment (=): 
+Assigns the value of the right operand to the left operand.
+#### Add and assign (+=): 
+Adds the right operand to the left operand and assigns the result to the left operand.
+#### Subtract and assign (-=):
+Subtracts the right operand from the left operand and assigns the result to the left operand.
+#### Multiply and assign (*=): 
+Multiplies the left operand by the right operand and assigns the result to the left operand.
+#### Divide and assign (/=):
+Divides the left operand by the right operand and assigns the result to the left operand.
+#### Modulus and assign (%=): 
+Takes the modulus of the left operand by the right operand and assigns the result to the left operand.
+#Conditional Statements
+Control statements in programming are instructions that tell the computer what to do based on certain conditions. 
+
+They allow the program to make decisions. If a condition is true, the program executes one block of code; if it’s false, it executes another block.
+
+Following are some of the decision-making statements in C++:
+
+## if Statement
+The if statement is used to execute a block of code only if a specified condition is true. If the condition is false, the block of code is skipped.
+The if statement checks a condition, which evaluates to a boolean value (true or false).
+### Syntax:
+if (condition) {    // Statements to execute if the condition is true} 
+
+If the condition is true, the code inside the if block is executed.
+
+If the condition is false, the code inside the if block is skipped.
+## if-else Statement
+The if-else statement is used to execute one block of code if the condition is true and another block if the condition is false.
+
+### Syntax:
+if (condition) {
+    // Executes this block if the condition is true
+} 
+else {
+    // Executes this block if the condition is false
+}
+If the condition is true, the code inside the if block is executed.
+
+If the condition is false, the code inside the else block is executed.
+## Nested if-else Statements
+A nested if-else statement is an if-else statement inside another if-else statement. It is used when you need to check multiple conditions in a hierarchical manner.
+### Syntax:
+if (condition2) {
+        // Executes if condition2 is true
+    } 
+    else {
+        // Executes if condition2 is false
+    }
+} 
+else {
+    // Executes if condition1 is false
+}
+The outer if-else statement is evaluated first.
+
+If the outer condition is true, the inner if-else statement is evaluated.
+
+This allows for more complex decision-making.
+## if-else-if Ladder
+The if-else-if ladder is used when there are multiple conditions to check. 
+
+The program evaluates each condition sequentially, and when a true condition is found, the corresponding block of code is executed. If none of the conditions are true, the else block (if present) is executed.
+
+### Syntax:
+if (condition1) {
+    // Executes if condition1 is true
+} 
+else if (condition2) {
+    // Executes if condition2 is true
+} 
+else if (condition3) {
+    // Executes if condition3 is true
+} 
+else {
+    // Executes if none of the conditions are true
+}
+## Switch Statement
+The switch statement is used to select one of many code blocks to execute based on the value of a variable. 
+
+It provides a cleaner alternative to a series of if-else-if statements.
+
+### Syntax:
+switch (expression) {
+    case value1:
+        // Code to execute if expression == value1
+        break;
+    case value2:
+        // Code to execute if expression == value2
+        break;
+    ...
+    default:
+        // Code to execute if expression doesn't match any case
+        break;
+}
+The expression is evaluated once, and its value is compared with the values of each case.
+
+If a match is found, the corresponding block of code is executed.
+
+The break statement is used to exit the switch block after a match is found.
+
+The default case is optional and is executed if no match is found.
